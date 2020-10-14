@@ -3,22 +3,22 @@ Name=Français (French)
 IsComplete=0
 
 [UpdateNotifyWindow]
-WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox={appname} {0} is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+WindowTitle=Mise à jour
+NewVersionAvailableLabel=Une nouvelle mise à jour est disponible
+NewVersionAvailableBox={appname} {0} est disponible! Souhaitez-vous la télécherger maintenant?
+DownloadBtn=Télécharger
+CloseBtn=Fermer
 
 [AboutWindow]
 WindowTitle=A propos
 AppVersionLabel=Version
 CreditsPage=Crédits
-ChangelogPage=Changelog
+ChangelogPage=Changements récents
 LicensesPage=Licences
 
 [LoggerWindow]
-WindowTitle=Logs
-CopyToClipboardBtn=Copy
+WindowTitle=Journal
+CopyToClipboardBtn=Copier
 
 [LicenseAgreementWindow]
 WindowTitle=Contrat de licence
@@ -26,58 +26,58 @@ AcceptBtn=Accepter
 DeclineBtn=Refuser
 
 [General]
-MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-MessageBox.SelectedPackageInvalid.Heading=The selected package is invalid or incompatible with your device.
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
-Message.ExtractingPackageToTemp=Extraire l'archive dans le dossier temporaire...
+MessageBox.CustomPackageWarn=Choisir un pack ancien ou incompatible peut engendrer des problèmes d'installation!{n}{n}Il est préférable d'utiliser la dernière version obtensible du serveur.{n}{n}Continuer quand même?
+MessageBox.SelectedPackageInvalid.Heading=Le pack sélectionné est invalide ou icompatible avec votre appareil.
+MessageBox.SelectedPackageInvalid.Message=Veuillez sélectionner un pack pour le build {0}.
+Message.ExtractingPackageToTemp=Extraction de l'archive dans le dossier temporaire...
 Message.DownloadingReqFiles=Téléchargement des fichiers requis...
-Label.StorageDrive=Storage drive
-Label.DeviceType=Device type
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+Label.StorageDrive=Périphérique de stockage
+Label.DeviceType=Type de périphérique
+FilePathTextPlaceholder=Appuiez sur le bouton "{0}" ou faites un glisser-déposer du fichier ici.
+ServerPackageInfoLabel=Cette oprion est recommandée. Elle peut être utilisée hors-ligne, mais le pack devra être téléchargé avant.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.Cancel=Annuler
+Button.Abort=Arrêter
+Button.Retry=Réésayer
+Button.Ignore=Ignorer
+Button.Yes=Oui
+Button.No=Non
+CheckBox.DoNotShowAgain=Ne plus afficher ceci
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Quelquechose s'est mal passé...
+Heading.Warning=Attention!
 
 [MainWindow]
-SendFeedbackBtn=Send feedback
+SendFeedbackBtn=Envoyer des commentaires
 NextPageBtn=Suivant
 BackPageBtn=Retour
 NextPageBtn.Install=Installation
 NextPageBtn.Finish=Terminé
-MessageBox.TaskOngoing.Heading=Etes-vous sur de vouloir forcer la fermeture de l'application?
+MessageBox.TaskOngoing.Heading=Êtes-vous sur de vouloir forcer la fermeture de l'application?
 MessageBox.TaskOngoing.Message=Une opération est actuellement en cours.
 
 [WelcomePage]
 PageTitle=Bienvenue
 WelcomeLabel=Bienvenue sur {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Cette application va vous aider à installer la version de bureau complète de Windows 10 sur votre Rapberry Pi.{n}{n}Appuiez sur {0} pour continuer.
 SelectLangLabel=Sélectionner la langue:
 
 [SelectDevicePage]
 PageTitle=Choix du disque
 SelectDeviceLabel=Sélectionner le disque
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
-Device.ExperimentalSupport=Experimental
-Device.SupportedModels=Supported models: {0}
+DisksListCombo.TextEmptyList=Aucun périphérique n'a été trouvé.Appuiez sur {0} pour actualiser.
+DisksListCombo.TextNoItemSelected=Appuiez ici pour sélectionnerun périphérique dans la liste.
+StorageDriveWarningLabel=Attention! Selectionner le mauvais périphérique peut entraîner des pertes de données irréversibles!
+Device.ExperimentalSupport=Expérimental
+Device.SupportedModels=Models supportés: {0}
 MessageBox.DiskAtLeast=La carte doit posséder au moins {0} Go d'espace disponible !
 MessageBox.DiskCompressedInstall.Heading=La carte dispose de suffisamment d'espace pour une installation compressée.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
-Message.LoadingDisks=Attente disque...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.DiskCompressedInstall.Message=Les performances du système peuvent être légèrement réduites à cause de la compression.
+Message.LoadingDisks=Attente du disque...
+MessageBox.NewBootloaderRequiredWarn=Si vous souhaitez démarrer votre {0} à partir de votre lecteur USB ou utiliser le shéma de partitionnage GPT, le "démarreur"doit être mis à jour.{n}{n}Please visit the following link for more details: {1}
 
 [SelectImagePage]
 PageTitle=Choix de l'image
